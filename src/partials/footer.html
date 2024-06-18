@@ -3,4 +3,132 @@
     id="footer"
     class="bg-[#242424] py-8"
 >
+  <div class="max-w-[1100px] mx-auto px-4">
+    <div class="flex md:flex-row flex-col gap-5 text-[#A7A7A7] justify-between flex-wrap lg:flex-nowrap">
+      <div>
+        <img src="./img/mainPage/logo.png" alt="logo" class="max-w-[150px]">
+        <p class="mt-4 lg:max-w-[305px]">
+          At Lucky Ticket, we are passionate
+          about creating exceptional travel
+          experiences that inspire, delight and
+          leave lasting memories. As travel
+          specialists, we strive to provide you with
+          unique and unforgettable trips, designed
+          to meet your desires and exceed your
+          expectations.
+        </p>
+        <div class="mt-4 flex gap-5">
+          <a href="">
+            <img src="./img/svg/facebook.svg" alt="facebook">
+          </a>
+          <a href="">
+            <img src="./img/svg/inst.svg" alt="inst">
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row gap-5 justify-center">
+        <ul class="flex flex-col gap-4">
+          <li class="text-white font-bold">About</li>
+          <li>
+            <a href="">
+              How to participate
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Winners
+            </a>
+          </li>
+          <li>
+            <a href="">
+              About Us
+            </a>
+          </li>
+        </ul>
+        <ul class="flex flex-col gap-4">
+          <li class="text-white font-bold">Useful links</li>
+          <li>
+            <a href="">
+              Cancellation policy
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Terms and conditions
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Our partners
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Acceptable Use Policy
+            </a>
+          </li>
+          <li>
+            <img src="./img/mainPage/footer-partners.png" alt="footer-partners" class="max-w-[250px]">
+          </li>
+        </ul>
+      </div>
+      <div>
+        <form
+          id="submit-form"
+          class="w-full relative z-20 max-w-[400px] mx-auto"
+        >
+          <div
+            x-data="socialForm"
+            x-show="isSuccessMessage"
+            x-transition.duration.400ms
+            class="flex bg-black/50 absolute inset-0 z-20 w-full items-center text-center justify-center md:text-2xl text-xl font-medium text-white"
+          >
+            Thank you!
+          </div>
+
+          <div class="flex flex-col gap-[25px] w-full">
+            <label>
+              <span class="text-white">Name</span>
+              <input
+                type="text"
+                name="Name"
+                placeholder="First and last name"
+                class="w-full border-2 border-[#A7A7A7] rounded-[5px] bg-white py-2 px-3 outline-none placeholder:text-base placeholder:text-[#A7A7A7]"
+                required
+              />
+            </label>
+            <label>
+              <span class="text-white">
+                Get preview access to our competitions
+              </span>
+              <input
+                type="text"
+                name="E-mail"
+                placeholder="E-mail"
+                class="w-full border-2 border-[#A7A7A7] rounded-[5px] bg-white py-2 px-3 outline-none placeholder:text-base placeholder:text-[#A7A7A7]"
+                required
+              />
+            </label>
+          </div>
+          <div class="mt-6">
+            <button
+              type="submit"
+              class="w-full rounded-[5px] py-2 px-3 bg-[#3E832C] text-white hover:bg-black hover:border-[1px] duration-300">
+              Subscribe to the newsletter
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="w-full bg-[#363636] text-center py-3 px-4 md:mt-20 mt-10">
+    <p class="text-[#A7A7A7]">
+      Copyright – Win Your Travel © 2024 Powered by Millennium Invest
+    </p>
+  </div>
 </footer>

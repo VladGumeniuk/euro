@@ -1,0 +1,21 @@
+<svg width="63" height="68" viewBox="0 0 63 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_204_1008)">
+<rect x="10.4102" y="0.310059" width="42" height="42" rx="3" fill="#8040FF" shape-rendering="crispEdges"/>
+<path d="M40.0029 23.1772C39.8975 23.564 39.5459 23.8101 39.1592 23.8101H28.8584L29.1045 24.9351H38.5264C39.0537 24.9351 39.4756 25.4624 39.335 25.9897L39.1592 26.8335C39.8271 27.1499 40.2842 27.8179 40.2842 28.5913C40.2842 29.6812 39.3701 30.5601 38.3154 30.5601C37.2256 30.5601 36.3467 29.6812 36.3467 28.5913C36.3467 28.064 36.5576 27.5718 36.9092 27.1851H29.5615C29.9131 27.5718 30.1592 28.064 30.1592 28.5913C30.1592 29.6812 29.2451 30.5601 28.1904 30.5601C27.1006 30.5601 26.2217 29.6812 26.2217 28.5913C26.2217 27.8882 26.6084 27.2554 27.2061 26.9038L24.71 14.8101H22.2842C21.792 14.8101 21.4404 14.4585 21.4404 13.9663V13.4038C21.4404 12.9468 21.792 12.5601 22.2842 12.5601H25.8701C26.2568 12.5601 26.6084 12.8765 26.7139 13.2632L27.0303 14.8101H40.8115C41.374 14.8101 41.7607 15.3374 41.6553 15.8647L40.0029 23.1772Z" fill="white"/>
+<a href="https://www.figma.com/design/cyVjrv5Y5qINUKadamXnVG/Lucky-ticket?node-id=208-125">
+<rect fill="black" fill-opacity="0" x="0.160156" y="-1.35" width="20.25" height="20.7"/>
+</a>
+</g>
+<defs>
+<filter id="filter0_d_204_1008" x="0.410156" y="0.310059" width="62" height="67" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="15"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.239216 0 0 0 0 0.27451 0 0 0 0 0.309804 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_204_1008"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_204_1008" result="shape"/>
+</filter>
+</defs>
+</svg>

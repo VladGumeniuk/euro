@@ -2,7 +2,7 @@ import Alpine from 'alpinejs';
 import collapse from '@alpinejs/collapse'
 import {mobileMenu} from './store/mobile-menu';
 import {stopScroll} from './store/stop-scroll';
-import {sliderProduct} from './components/slider-product';
+import {sliderSwiper} from './components/swiper-slider';
 import {submitForm} from './components/submit-form';
 
 
@@ -11,7 +11,7 @@ import {submitForm} from './components/submit-form';
 document.addEventListener('alpine:init', () => {
     Alpine.plugin(collapse);
 
-    Alpine.data("sliderProduct", sliderProduct);
+    Alpine.data("sliderSwiper", sliderSwiper);
     Alpine.data("submitForm", submitForm);
 
     Alpine.store("mobileMenu", mobileMenu);

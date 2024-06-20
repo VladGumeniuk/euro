@@ -39,3 +39,12 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
 .swiper {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+.swiper-container-thumbs .swiper-slide {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.swiper-container-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}

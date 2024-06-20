@@ -10,7 +10,7 @@
   <div class="container">
     <div class="grid lg:grid-cols-2 grid-cols-1 gap-7">
       <div>
-        <div class="swiper px-4" x-data="sliderSwiper('mainSlider')">
+        <div class="swiper swiper-container-main" x-data="sliderSwiper('mainSlider')">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="./img/mainPage/slide1.jpg" alt="1">
@@ -19,7 +19,7 @@
               <img src="./img/mainPage/2.png" alt="2">
             </div>
             <div class="swiper-slide">
-              <img src="./img/mainPage/slide3.jpeg" alt="3">
+              <img src="./img/mainPage/slide3.jpeg" alt="3" class="w-full object-cover">
             </div>
             <div class="swiper-slide">
               <img src="./img/mainPage/slide4.jpg" alt="4">
@@ -27,7 +27,7 @@
           </div>
         </div>
 
-        <div class="swiper px-4 mt-5" x-data="sliderSwiper('mainSliderModal')">
+        <div class="swiper swiper-container-thumbs mt-3" x-data="sliderSwiper('mainSliderModal')">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="./img/mainPage/slide1.jpg" alt="1">
@@ -102,11 +102,11 @@
           Winner will get the Products mentioned in
           nuits-en-mediterranee/
         </p>
-        <div class="flex relative justify-between mt-3">
+        <div class="flex relative items-end justify-between mt-3">
           <p>0</p>
-          <p>Tickets sold: 149</p>
+          <p class="max-w-[100px] md:max-w-full text-center">Tickets sold: 149</p>
           <p>1000</p>
-          <div class="absolute px-2 top-[5px] left-[11.9%] rounded-t-[5px] text-white text-sm flex justify-center items-center" style="background: red">
+          <div class="absolute px-2 md:top-[5px] top-[27px] left-[11.9%] rounded-t-[5px] text-white text-sm flex justify-center items-center" style="background: red">
             14.9%
           </div>
         </div>

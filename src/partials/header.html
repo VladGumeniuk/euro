@@ -18,7 +18,7 @@
                 <a href="./how-to-participate.html">How to participate</a>
             </li>
             <li>
-                <a href="">Winners</a>
+                <a href="./winners.html">Winners</a>
             </li>
             <li>
                 <a href="./commitment.html">Commitment</a>
@@ -27,5 +27,10 @@
                 <a href="./about-us.html">About Us</a>
             </li>
         </ul>
+        <button class="md:hidden w-6 h-4 flex flex-col justify-between" @click="$store.mobileMenu.show()">
+            <span class="w-full h-[2px] bg-black block"></span>
+            <span class="w-full h-[2px] bg-black block"></span>
+            <span class="w-full h-[2px] bg-black block"></span>
+        </button>
     </div>
 </header>
